@@ -22,7 +22,7 @@ main = do
   case (peakCount >= 0) of
     True => putStrLn "  [TEST 2] Dyck Contour Peak Sifting & Narayana Invariants: PASSED ✅"
     False => putStrLn "  [TEST 2] Dyck Contour Peak Sifting & Narayana Invariants: FAILED ❌"
-  let fluxAudit = auditToroidalBoxelFlux 4 sampleState
+  let fluxAudit = auditToroidalBoxelFlux 3 sampleState
   case fluxAudit of
     True => putStrLn "  [TEST 3] Toroidal Boxel Flux Quantization & Containment: PASSED ✅"
     False => putStrLn "  [TEST 3] Toroidal Boxel Flux Quantization & Containment: FAILED ❌"
