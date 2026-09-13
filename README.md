@@ -13,7 +13,7 @@
 
 ### 1. `Library/Wiki/Main.idr`
 - **Topological Boundary Proofs:** Proof specifications verifying $\partial^2 = 0$, chain cell complex boundary mapping, Dyck path peak sifting, and toroidal lattice homology invariants.
-- **Verification Runner:** Literate Idris 2 test runner executing compile-time `%macro` reflection proofs and QuickCheck property test suites for Layer 4 (`ltopology-wiki`).
+- **Verification Runner:** Literate Idris 2 test runner executing compile-time `%macro` reflection proofs and QuickCheck property test suites for Layer 4 (`topology-wiki`).
 
 ---
 
@@ -23,7 +23,7 @@ To compile the literate verification suite and execute the test runner binary:
 
 ```bash
 idris2 --build Idris2-Topology-Wiki.ipkg
-./build/exec/ltopology-wiki
+./build/exec/topology-wiki
 ```
 
 ---

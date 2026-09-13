@@ -15,4 +15,4 @@ sourcedir = "Library"
 modules = Wiki.Main
 
 main = Wiki.Main
-executable = ltopology-wiki
+executable = topology-wiki
