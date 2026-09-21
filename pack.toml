@@ -1,34 +1,34 @@
 [package]
-name = "Idris2-Topology-Wiki"
+name = "FinSc-Topology-Wiki"
 version = "0.1.0"
-ipkg = "Idris2-Topology-Wiki.ipkg"
+ipkg = "FinSc-Topology-Wiki.ipkg"
 
-[custom.all.Idris2-Multiset-Core]
+[custom.all.FinSc-Multiset-Core]
 type = "local"
-path = "../Idris2-Multiset-Core"
-ipkg = "Idris2-Multiset-Core.ipkg"
+path = "../FinSc-Multiset-Core"
+ipkg = "FinSc-Multiset-Core.ipkg"
 
-[custom.all.Idris2-Multiset-Transform]
+[custom.all.FinSc-Multiset-Transform]
 type = "local"
-path = "../Idris2-Multiset-Transform"
-ipkg = "Idris2-Multiset-Transform.ipkg"
+path = "../FinSc-Multiset-Transform"
+ipkg = "FinSc-Multiset-Transform.ipkg"
 
-[custom.all.Idris2-Multiset-Ternary]
+[custom.all.FinSc-Multiset-Ternary]
 type = "local"
-path = "../Idris2-Multiset-Ternary"
-ipkg = "Idris2-Multiset-Ternary.ipkg"
+path = "../FinSc-Multiset-Ternary"
+ipkg = "FinSc-Multiset-Ternary.ipkg"
 
-[custom.all.Idris2-Geometry]
+[custom.all.FinSc-Geometry]
 type = "local"
-path = "../Idris2-Geometry"
-ipkg = "Idris2-Geometry.ipkg"
+path = "../FinSc-Geometry"
+ipkg = "FinSc-Geometry.ipkg"
 
-[custom.all.Idris2-Topology]
+[custom.all.FinSc-Topology]
 type = "local"
-path = "../Idris2-Topology"
-ipkg = "Idris2-Topology.ipkg"
+path = "../FinSc-Topology"
+ipkg = "FinSc-Topology.ipkg"
 
-[custom.all.Idris2-Electromagnetism]
+[custom.all.FinSc-Electromagnetism]
 type = "local"
-path = "../Idris2-Electromagnetism"
-ipkg = "Idris2-Electromagnetism.ipkg"
+path = "../FinSc-Electromagnetism"
+ipkg = "FinSc-Electromagnetism.ipkg"
